@@ -1,0 +1,1957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TdU-T3-uyq">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Vestel-->
+        <scene sceneID="cy7-TQ-XrE">
+            <objects>
+                <tableViewController id="WUd-xE-ofk" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="TPa-kY-Mog">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexColor" systemColor="labelColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Menü" id="iXd-Rc-UXE">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="16" textLabel="4ne-Fr-0Pi" imageView="O41-t8-CJs" style="IBUITableViewCellStyleDefault" id="SF9-2v-efD">
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SF9-2v-efD" id="JEF-CC-223">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Hakkımızda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4ne-Fr-0Pi">
+                                                    <rect key="frame" x="79" y="0.0" width="296" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="about_us" id="O41-t8-CJs">
+                                                    <rect key="frame" x="20" y="0.0" width="44" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="etp-wd-Pfv" kind="show" id="Udq-eT-K7F"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="16" textLabel="hYL-7O-yDh" imageView="jvP-fc-NEb" style="IBUITableViewCellStyleDefault" id="Rid-Fk-K7V">
+                                        <rect key="frame" x="0.0" y="99.5" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rid-Fk-K7V" id="m7y-6b-iSL">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Yetkili Servisler" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hYL-7O-yDh">
+                                                    <rect key="frame" x="77" y="0.0" width="298" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="call-center" id="jvP-fc-NEb">
+                                                    <rect key="frame" x="30" y="6" width="32" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <edgeInsets key="layoutMargins" top="8" left="30" bottom="8" right="8"/>
+                                        <connections>
+                                            <segue destination="7EK-66-9E0" kind="show" id="WGm-zW-Jv1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="16" textLabel="3ij-aB-j8X" imageView="uch-Yd-QPB" style="IBUITableViewCellStyleDefault" id="zb5-bj-Ibh">
+                                        <rect key="frame" x="0.0" y="143.5" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zb5-bj-Ibh" id="keX-QF-5r8">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="İletişim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3ij-aB-j8X">
+                                                    <rect key="frame" x="79" y="0.0" width="296" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="contact" id="uch-Yd-QPB">
+                                                    <rect key="frame" x="20" y="0.0" width="44" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="OqB-w8-6hV" kind="show" id="6Rl-Sq-oSH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="16" textLabel="nWV-k4-wQr" imageView="PAm-80-KCL" style="IBUITableViewCellStyleDefault" id="TzZ-3C-bEE">
+                                        <rect key="frame" x="0.0" y="187.5" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TzZ-3C-bEE" id="cp8-na-WXY">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Kategoriler" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nWV-k4-wQr">
+                                                    <rect key="frame" x="79" y="0.0" width="296" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="list" id="PAm-80-KCL">
+                                                    <rect key="frame" x="20" y="0.0" width="44" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="cuI-7H-czv" kind="show" id="n1v-oy-krS"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="WUd-xE-ofk" id="wrU-mP-6n6"/>
+                            <outlet property="delegate" destination="WUd-xE-ofk" id="BU9-OI-VtH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Vestel" id="SU0-XN-nY5"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ii8-pZ-uyS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122" y="-133"/>
+        </scene>
+        <!--Yetkili Servisler-->
+        <scene sceneID="KEf-o2-ONa">
+            <objects>
+                <viewController id="7EK-66-9E0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qBB-CM-5ph">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_yetkili_servis_d" translatesAutoresizingMaskIntoConstraints="NO" id="3SQ-Wn-E9S">
+                                <rect key="frame" x="20" y="116" width="374" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="zf4-jm-M2S"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hmr-0z-hPK">
+                                <rect key="frame" x="20" y="370" width="374" height="448"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <string key="text">360 yetkili servisimiz, 4 merkez servisimiz, Venus akıllı telefon ve tabletlerimiz için kurulu 4 GüVENUSsü ile Türkiye’nin neresinde olursanız olun, ihtiyacınız olan her konuda anında çözüm sunuyoruz. 
+
+Satış sonrası hizmetlerde kusursuz Vestel deneyimi yaşatmak için BURADAYIZ. 
+
+Konumunuzu paylaşarak size en yakın yetkili servisimize ulaşabilir veya il ve ilçe seçerek Vestel Yetkili Servislerini görüntüleyebilirsiniz. 
+
+İstanbul'daki Yetkili Servislerin İletişim Bilgileri İçin:
+
+ALIHAN ERIM TEZER ELEKTRONIK
+
+TELEFON:(850)2224123
+
+BIRSA ELEKTRONIK SERVIS HIZMETLERI TIC.LTD.STI. 
+
+TELEFON:(850)2224123
+
+
+CENGIZ AYDIN GÜRSES ELEKTRONIK 
+
+TELEFON:(850)2224123
+
+
+DÜZGÜNER TEKNİK SERVİS HIZ SAN.TIC.LTD.STI 
+
+TELEFON:(850)2224123
+
+
+ERKAN ŞAHİN CIHANDAN ELEKTRONIK 
+
+TELEFON:(850)2224123
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" address="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="t1x-a0-ExC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3SQ-Wn-E9S" firstAttribute="leading" secondItem="qBB-CM-5ph" secondAttribute="leadingMargin" id="8Wq-sk-qkA"/>
+                            <constraint firstItem="3SQ-Wn-E9S" firstAttribute="top" secondItem="t1x-a0-ExC" secondAttribute="top" constant="28" id="Tjr-kx-DjB"/>
+                            <constraint firstItem="3SQ-Wn-E9S" firstAttribute="trailing" secondItem="Hmr-0z-hPK" secondAttribute="trailing" id="Zf1-k7-e5N"/>
+                            <constraint firstItem="t1x-a0-ExC" firstAttribute="bottom" secondItem="Hmr-0z-hPK" secondAttribute="bottom" constant="44" id="hid-bR-cfx"/>
+                            <constraint firstItem="Hmr-0z-hPK" firstAttribute="top" secondItem="3SQ-Wn-E9S" secondAttribute="bottom" constant="24" id="nYp-48-qW5"/>
+                            <constraint firstItem="3SQ-Wn-E9S" firstAttribute="leading" secondItem="Hmr-0z-hPK" secondAttribute="leading" id="ofk-uJ-Rwq"/>
+                            <constraint firstItem="3SQ-Wn-E9S" firstAttribute="trailing" secondItem="qBB-CM-5ph" secondAttribute="trailingMargin" id="pvU-YM-4Rf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Yetkili Servisler" id="hmb-LH-hov"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="COm-bE-3SX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1014" y="-419"/>
+        </scene>
+        <!--Televizyonlar-->
+        <scene sceneID="Oql-GK-qmL">
+            <objects>
+                <tableViewController id="BVN-6p-6lr" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fZq-yg-8QO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="cdO-SA-iXd">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="5bv-LI-zgc" detailTextLabel="ZEA-JY-aNz" imageView="v0O-5Y-dmi" style="IBUITableViewCellStyleSubtitle" id="j55-v4-eeP">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="j55-v4-eeP" id="dDI-4d-esZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="65&quot; Smart 4K Ultra HD TV 65U9500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5bv-LI-zgc">
+                                                    <rect key="frame" x="120" y="9" width="255" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="6.999 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZEA-JY-aNz">
+                                                    <rect key="frame" x="120" y="31.5" width="44.5" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_tv_1" id="v0O-5Y-dmi">
+                                                    <rect key="frame" x="20" y="0.0" width="85" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="aIu-94-0nk" kind="show" id="o2i-WV-GA2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="sVv-Xz-Aq9" detailTextLabel="f4V-hg-vg7" imageView="n0i-ex-0X0" style="IBUITableViewCellStyleSubtitle" id="NQR-HR-Y1w">
+                                        <rect key="frame" x="0.0" y="84" width="414" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NQR-HR-Y1w" id="o5I-H4-z1Y">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="22&quot; Full HD TV Pembe 22F8500P" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sVv-Xz-Aq9">
+                                                    <rect key="frame" x="120" y="9" width="254.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="1.649 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f4V-hg-vg7">
+                                                    <rect key="frame" x="120" y="31.5" width="42.5" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_tv_2" id="n0i-ex-0X0">
+                                                    <rect key="frame" x="20" y="0.0" width="85" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="i5b-8D-E64" kind="show" id="6L7-nx-IDR"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="eI1-uH-Vy5" detailTextLabel="XuV-ef-6x0" imageView="WNm-x4-yWS" style="IBUITableViewCellStyleSubtitle" id="rDf-5L-u1s">
+                                        <rect key="frame" x="0.0" y="140" width="414" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rDf-5L-u1s" id="h1g-uK-P5P">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="32&quot; Smart HD Ready TV 32H9510" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eI1-uH-Vy5">
+                                                    <rect key="frame" x="120" y="9" width="255" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="2.399 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XuV-ef-6x0">
+                                                    <rect key="frame" x="120" y="31.5" width="44.5" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_tv_3" id="WNm-x4-yWS">
+                                                    <rect key="frame" x="20" y="0.0" width="85" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="7FN-Zd-8Nd" kind="show" id="Hks-ZI-DkI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="BVN-6p-6lr" id="LtP-m1-Rxc"/>
+                            <outlet property="delegate" destination="BVN-6p-6lr" id="h8Z-SL-ysJ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Televizyonlar" id="12u-5g-Edr"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4YT-xT-dps" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3583" y="-1643"/>
+        </scene>
+        <!--22" Full HD TV Pembe-->
+        <scene sceneID="Jhn-2n-hG5">
+            <objects>
+                <viewController id="i5b-8D-E64" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="15J-hW-KFh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_tv2_d" translatesAutoresizingMaskIntoConstraints="NO" id="Li6-dH-WYV">
+                                <rect key="frame" x="20" y="107" width="374" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="qbt-IB-qyF"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1R5-28-FDN">
+                                <rect key="frame" x="20" y="345" width="374" height="508"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">22"/55cm
+Full HD (1920 x 1080)
+Pixellence
+HDMI
+USB
+
+Ürün Özellikleri
+
+USB 
+Televizyonunuz, size halihazırda istemediğiniz kadar program ve eğlence imkanı sunuyor. Ancak bunu bir adım daha öteye taşımaya ne dersiniz? Öyleyse artık başka cihazlarınızda yer alan dijital içerikleri de televizyonunuzda görüntüleyebilirsiniz. Nasıl mı? Televizyonunuzun USB girişi sayesinde bu mümkün. Universal Serial Bus kelimesinin kısaltması olan USB, Türkçede “evrensel seri veriyolu” olarak karşılık buluyor. Dış donanımların elektronik cihazlar ile bağlantı kurabilmesi amacıyla geliştiren USB, seri yapılı bir bağlantı biçimini oluşturuyor. Farklı aktarım hızlarına sahip USB’ler, pratik “tak - çalıştır” özelliği sayesinde birçok cihazın birbiri ile bağlantısını sağlamak amacıyla kullanılıyor. USB sayesinde televizyonunuza bağlanan tüm cihazlar, kolaylıkla tanınıp çalıştırılabiliyor.
+
+HDMI 
+Televizyonlarda yüksek kalitede görüntü ve ses, HD görüntüleme sayesinde elde edilebiliyor. Ancak ses ve görüntünün aktarımını sıkıştırmaya gerek duymaksızın sağlayan bu teknolojide, yüksek bant genişliğine sahip bir bağlantıya ihtiyaç duyuluyor. HDMI da bu noktada devreye girerek ses ve görüntünün tek bağlantı üzerinden olduğu gibi aktarılması için aracı oluyor. Sinyali TDMS (geçişi en aza indirgenmiş diferansiyel sinyalleşme) ile bir kodlama aşamasından geçirerek aktaran HDMI teknolojisi, sinyal zayıflığını engelliyor. “Yüksek çözünürlüklü çoklu ortam arayüzü” anlamına gelen HDMI, 5 Gbps bant genişliği ile görüntülerin net ve eksiksiz izlenmesini sağlıyor. Televizyonunuzda yer alan HDMI girişiyle ise nitelikli bir TV keyfi sizi bekliyor.
+
+Pixellence
+ Televizyonunuzdaki görüntüleri gerçekle ayırt edemeyeceğiniz yepyeni bir TV deneyimine ne dersiniz? Yerli üretimin gururu Vestel tarafından geliştirilen Pixellence teknolojisiyle tanışmaya hazır olun! Vestel’in patentli görüntü işleme teknolojisi Pixellence, televizyonunuzdaki görüntüleri çok daha yüksek kalitede izlemenize olanak sağlıyor. “Pixel” ve “excellence” (mükemmellik) kelimelerinin bir araya gelmesiyle oluşan Pixellence, teknolojinin sunduğu kusursuz görüntüleme imkanlarının en somut örneklerinden birini teşkil ediyor. Renk İyileştirme Algoritması'yla görüntüdeki renk bilgisini algılayıp en üst seviyeye ulaştıran Pixellence, çok daha canlı ve doğal renklerle seyir keyfinizi taçlandırıyor. Bu teknoloji, renk yoğunluğunun yanı sıra Kontrast İyileştirme Algoritması sayesinde de görüntülerin kalitesini üst düzeye yükseltiyor.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="h3X-k8-KpG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Li6-dH-WYV" firstAttribute="trailing" secondItem="15J-hW-KFh" secondAttribute="trailingMargin" id="5Qq-wH-KeG"/>
+                            <constraint firstItem="Li6-dH-WYV" firstAttribute="trailing" secondItem="1R5-28-FDN" secondAttribute="trailing" id="C6u-rj-xXg"/>
+                            <constraint firstItem="Li6-dH-WYV" firstAttribute="top" secondItem="h3X-k8-KpG" secondAttribute="top" constant="19" id="Mvz-Hr-sHH"/>
+                            <constraint firstItem="Li6-dH-WYV" firstAttribute="leading" secondItem="1R5-28-FDN" secondAttribute="leading" id="RaZ-bn-1cf"/>
+                            <constraint firstItem="h3X-k8-KpG" firstAttribute="bottom" secondItem="1R5-28-FDN" secondAttribute="bottom" constant="9" id="omm-iB-BdV"/>
+                            <constraint firstItem="1R5-28-FDN" firstAttribute="top" secondItem="Li6-dH-WYV" secondAttribute="bottom" constant="8" id="tca-Fa-Oh9"/>
+                            <constraint firstItem="Li6-dH-WYV" firstAttribute="leading" secondItem="15J-hW-KFh" secondAttribute="leadingMargin" id="u26-wj-Kfp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="22&quot; Full HD TV Pembe" id="gYb-h0-mwS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DK0-rF-89y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4416" y="-2366"/>
+        </scene>
+        <!--32" Smart HD Ready TV-->
+        <scene sceneID="KnV-ic-9mm">
+            <objects>
+                <viewController id="7FN-Zd-8Nd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ddD-b3-81e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_tv3_d" translatesAutoresizingMaskIntoConstraints="NO" id="Fo0-Yo-Fx8">
+                                <rect key="frame" x="20" y="70" width="374" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="mn4-r9-FWJ"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tSV-B0-xHm">
+                                <rect key="frame" x="20" y="308" width="374" height="508"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">32 İnç / 80 Ekran
+HD Ready (1366 x 768)
+Pixellence
+Dahili WiFi
+Bluetooth
+
+Ürün Özellikleri
+
+HD Ready
+ “High Definition” ifadesinin kısaltması olan HD, yüksek çözünürlük anlamına geliyor. Türkçede “hazır” anlamına gelen “Ready” sayesinde ise televizyonunuz, tüm görüntüleri HD uyumlu olarak hazır hale getirebiliyor. HD Ready televizyonlar, görüntüleri 1080x720 piksel olarak izlemenize imkan tanıyor. HD Ready teknolojisi sayesinde HD yayın yapan tüm cihazlar, televizyonunuzda ilave çipe gerek kalmadan yüksek çözünürlükte görüntülenebiliyor. Ekrana yansıyan görüntüleri ideal çözünürlükte görüntülemenize olanak sağlayan bu teknoloji ile tüm HD yayınlar rahatlıkla izlenebiliyor. HD Ready standardına sahip televizyonunuzun HDMI girişi sayesinde, görüntüler analog hale çevrilmeden doğrudan dijital olarak ekrana yansıyor. Bu sayede aktarım esnasında herhangi bir görüntü kaybı yaşanmıyor.
+
+Dahili Wi-Fi 
+Kablosuz internet çıktığı günden bu yana hayatımızdaki teknolojiler büyük bir değişim geçirdi. Öyle ki ev veya iş yerlerine internet bağlanması için bir zamanlar gerekli olan sabit telefonlar da geride kaldı. Tüm teknolojilerin mobilize olmaya başladığı günümüzde, kablosuz internete herhangi bir aparat kullanmadan bağlanmak artık yalnızca akıllı telefonlara mahsus değil. Artık televizyonlar da bu ayrıcalığa dahil oluyor. Üstelik ekstra kabloları ve adaptörleri unutmanın zamanı çoktan geldi! Dahili Wi-Fi özelliği sayesinde televizyonunuz, harici başka bir cihaza ihtiyaç duymadan kablosuz ağlara kolaylıkla bağlanabiliyor. Size de yalnızca televizyonunuzun ayarlar kısmından Wi-Fi şifresini girerek, internette dilediğiniz gibi sörf yapmak kalıyor
+
+SMART TV 
+Akıllı, Keyifli, ZenginStandart bir televizyon ötesinde, birbirinden farklı içerik alternatifleri sunan Vestel Smart TV evde geçirdiğiniz zamanı daha eğlenceli hale getirir.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eot-md-urq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Fo0-Yo-Fx8" firstAttribute="leading" secondItem="tSV-B0-xHm" secondAttribute="leading" id="NOD-1U-ghP"/>
+                            <constraint firstItem="tSV-B0-xHm" firstAttribute="top" secondItem="Fo0-Yo-Fx8" secondAttribute="bottom" constant="8" id="YIU-Rn-4TU"/>
+                            <constraint firstItem="Fo0-Yo-Fx8" firstAttribute="top" secondItem="ddD-b3-81e" secondAttribute="topMargin" constant="-18" id="bkb-Jt-a65"/>
+                            <constraint firstItem="Fo0-Yo-Fx8" firstAttribute="trailing" secondItem="tSV-B0-xHm" secondAttribute="trailing" id="gVi-c6-sRK"/>
+                            <constraint firstItem="eot-md-urq" firstAttribute="bottom" secondItem="tSV-B0-xHm" secondAttribute="bottom" constant="46" id="p2Q-On-GWh"/>
+                            <constraint firstItem="Fo0-Yo-Fx8" firstAttribute="trailing" secondItem="ddD-b3-81e" secondAttribute="trailingMargin" id="sb5-86-78E"/>
+                            <constraint firstItem="Fo0-Yo-Fx8" firstAttribute="leading" secondItem="ddD-b3-81e" secondAttribute="leadingMargin" id="xTH-nE-c83"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="32&quot; Smart HD Ready TV" id="489-4Q-ZoJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pgj-lo-lDR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4416" y="-1643"/>
+        </scene>
+        <!--65" Smart 4K Ultra HD TV -->
+        <scene sceneID="dsZ-eH-Xzt">
+            <objects>
+                <viewController id="aIu-94-0nk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0QI-oA-OKh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_tv1_d" translatesAutoresizingMaskIntoConstraints="NO" id="AHs-aa-9sb">
+                                <rect key="frame" x="20" y="116" width="374" height="254"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="254" id="M6P-Yx-JM1"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PcY-Au-hVt">
+                                <rect key="frame" x="20" y="408" width="374" height="420"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">65 İnç / 164 Ekran
+4K Ultra HD (3840x2160)
+Pixellence Pro
+HDR10
+Dolby Vision
+Vestel TV’leriniz ile EBA’ya kolayca erişim sağlayabilirsiniz
+
+Ürün Özellikleri
+
+PC Girişi
+PC girişi sayesinde televizyonunuzu aynı zamanda bilgisayar monitörü olarak da kullanabilirsiniz.
+
+4 Çekirdekli İşlemci
+Yeni 4 Çekirdek işlemcili ürünlerimiz artık 4 kata kadar daha hızlı performans gösteriyor.
+
+Dahili Wi-Fi
+Kablosuz internet çıktığı günden bu yana hayatımızdaki teknolojiler büyük bir değişim geçirdi. Öyle ki ev veya iş yerlerine internet bağlanması için bir zamanlar gerekli olan sabit telefonlar da geride kaldı. Tüm teknolojilerin mobilize olmaya başladığı günümüzde, kablosuz internete herhangi bir aparat kullanmadan bağlanmak artık yalnızca akıllı telefonlara mahsus değil. Artık televizyonlar da bu ayrıcalığa dahil oluyor. Üstelik ekstra kabloları ve adaptörleri unutmanın zamanı çoktan geldi! Dahili Wi-Fi özelliği sayesinde televizyonunuz, harici başka bir cihaza ihtiyaç duymadan kablosuz ağlara kolaylıkla bağlanabiliyor. Size de yalnızca televizyonunuzun ayarlar kısmından Wi-Fi şifresini girerek, internette dilediğiniz gibi sörf yapmak kalıyor.
+
+İnternet Tarayıcısı
+Vestel Smart TV’niz üzerinden internet tarayıcısı ile istediğiniz websitesini ziyaret edebilirsiniz.
+
+Vestel Smart Center
+Vestel Smart Center, Vestel Smart TV’lerle uyumlu bir tablet ve akıllı telefon uygulamasıdır. Bu uygulama ile, fotoğraf, müzik veya videolarınızı televizyondan mobil cihazınıza ya da mobil cihazınızdan televizyonunuza aktarabilir, mobil cihazınızı kumanda gibi kullanarak tüm televizyon fonksiyonlarını kontrol edebilirsiniz. Vestel Smart Center’ın akıllı Rehber fonksiyonu size TV deneyiminizi bir üst seviyeye taşırsınız.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OUz-5X-DpW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OUz-5X-DpW" firstAttribute="bottom" secondItem="PcY-Au-hVt" secondAttribute="bottom" constant="34" id="1HL-sF-MOn"/>
+                            <constraint firstItem="AHs-aa-9sb" firstAttribute="trailing" secondItem="PcY-Au-hVt" secondAttribute="trailing" id="IN0-ox-iWc"/>
+                            <constraint firstItem="AHs-aa-9sb" firstAttribute="leading" secondItem="0QI-oA-OKh" secondAttribute="leadingMargin" id="YEF-nD-8Sp"/>
+                            <constraint firstItem="PcY-Au-hVt" firstAttribute="top" secondItem="AHs-aa-9sb" secondAttribute="bottom" constant="38" id="jA8-NS-Tda"/>
+                            <constraint firstItem="AHs-aa-9sb" firstAttribute="top" secondItem="OUz-5X-DpW" secondAttribute="top" constant="28" id="skm-aT-YeF"/>
+                            <constraint firstItem="AHs-aa-9sb" firstAttribute="leading" secondItem="PcY-Au-hVt" secondAttribute="leading" id="umz-1s-xEE"/>
+                            <constraint firstItem="AHs-aa-9sb" firstAttribute="trailing" secondItem="0QI-oA-OKh" secondAttribute="trailingMargin" id="vZa-5s-mHh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="65&quot; Smart 4K Ultra HD TV " id="F7V-bJ-JsY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="55v-2Q-6XQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5234.7826086956529" y="-1821.4285714285713"/>
+        </scene>
+        <!--İletişim-->
+        <scene sceneID="4Ue-2c-Zey">
+            <objects>
+                <viewController id="OqB-w8-6hV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ilk-nb-fON">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_musteri_d" translatesAutoresizingMaskIntoConstraints="NO" id="WDW-nY-wQd">
+                                <rect key="frame" x="20" y="121" width="374" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="A0j-Na-QNn"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BeT-dr-fRu">
+                                <rect key="frame" x="20" y="359" width="374" height="475"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <string key="text">Satış sonrası hizmetlerde kusursuz Vestel deneyimi yaşatmak için BURADAYIZ..
+
+Müşteri Temsilcilerimize; 0 850 222 4 123 iletişim merkezi ve Whatsapp numaramızdan ya da CapCanlı Destek uygulamamızdan 7 gün 24 saat ulaşabilirsiniz. Ayrıca 08502224124 ve 08503935656 nolu numaralar Vestel'e aittir. Ekibimiz sizi Vestel markalı ürününüz için ek güvence fırsatlarıyla alakalı bilgi vermek ve anket çalışmaları amacıyla arayabilir.
+
+Dilediğiniz zaman dilediğiniz kanaldan bize ulaşmanız için;
+
+
+
+Mail adresimiz : vmh@vestel.com.tr 
+
+vmh@vestel.com.tr 
+
+Whatsapp Numaramız: 0850 222 4 123</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hyx-8E-4wt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WDW-nY-wQd" firstAttribute="trailing" secondItem="BeT-dr-fRu" secondAttribute="trailing" id="8Vt-CH-x1Z"/>
+                            <constraint firstItem="WDW-nY-wQd" firstAttribute="leading" secondItem="ilk-nb-fON" secondAttribute="leadingMargin" id="JxY-AD-6Ii"/>
+                            <constraint firstItem="WDW-nY-wQd" firstAttribute="top" secondItem="hyx-8E-4wt" secondAttribute="top" constant="33" id="Ztq-gC-lHr"/>
+                            <constraint firstItem="hyx-8E-4wt" firstAttribute="bottom" secondItem="BeT-dr-fRu" secondAttribute="bottom" constant="28" id="bHj-Ec-kFw"/>
+                            <constraint firstItem="WDW-nY-wQd" firstAttribute="leading" secondItem="BeT-dr-fRu" secondAttribute="leading" id="k4G-Qy-OYV"/>
+                            <constraint firstItem="BeT-dr-fRu" firstAttribute="top" secondItem="WDW-nY-wQd" secondAttribute="bottom" constant="8" id="nvB-s0-QES"/>
+                            <constraint firstItem="WDW-nY-wQd" firstAttribute="trailing" secondItem="ilk-nb-fON" secondAttribute="trailingMargin" id="ryR-X7-Gzd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="İletişim" id="2gM-RH-fly"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ba8-Kz-4Xh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="452" y="593"/>
+        </scene>
+        <!--Kategoriler-->
+        <scene sceneID="KLR-1p-BjQ">
+            <objects>
+                <tableViewController id="cuI-7H-czv" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ggD-Gg-mEU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="  " id="ZVU-WZ-bT5">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="bcf-R6-GHp" imageView="pcB-gK-5zw" style="IBUITableViewCellStyleDefault" id="5J1-oz-RKT">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5J1-oz-RKT" id="art-pm-zCJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Televizyonlar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bcf-R6-GHp">
+                                                    <rect key="frame" x="85" y="0.0" width="290" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_tv_k" id="pcB-gK-5zw">
+                                                    <rect key="frame" x="20" y="0.0" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BVN-6p-6lr" kind="show" id="AAA-gt-skj"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="XLl-QE-ad0" imageView="kQz-YH-2dh" style="IBUITableViewCellStyleDefault" id="UKQ-Sw-Z8Y">
+                                        <rect key="frame" x="0.0" y="78" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UKQ-Sw-Z8Y" id="r5N-6Y-mL6">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Buzdolapları" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XLl-QE-ad0">
+                                                    <rect key="frame" x="85" y="0.0" width="290" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_buzdolabi_k" id="kQz-YH-2dh">
+                                                    <rect key="frame" x="20" y="0.0" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="fWQ-DA-AfG" kind="show" id="TOj-ul-JkN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="zgv-V4-HbV" imageView="HiU-xB-073" style="IBUITableViewCellStyleDefault" id="jVN-GX-GuL">
+                                        <rect key="frame" x="0.0" y="128" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jVN-GX-GuL" id="sCg-bg-aw7">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Çamaşır Makineleri" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zgv-V4-HbV">
+                                                    <rect key="frame" x="85" y="0.0" width="290" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_camasir_k" id="HiU-xB-073">
+                                                    <rect key="frame" x="20" y="0.0" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="4ea-Ji-og7" kind="show" id="JHq-iR-Zzb"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="9g1-Ym-cNf" imageView="kgA-t3-LXX" style="IBUITableViewCellStyleDefault" id="QlK-3v-8TZ">
+                                        <rect key="frame" x="0.0" y="178" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QlK-3v-8TZ" id="71c-TZ-1h5">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="   Akıllı Telefonlar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9g1-Ym-cNf">
+                                                    <rect key="frame" x="73" y="0.0" width="302" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_mobil_k" id="kgA-t3-LXX">
+                                                    <rect key="frame" x="25" y="0.0" width="33" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <edgeInsets key="layoutMargins" top="8" left="25" bottom="8" right="8"/>
+                                        <connections>
+                                            <segue destination="bIW-tC-Qxd" kind="show" id="YeG-rx-9kb"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="cuI-7H-czv" id="rcv-VX-4Xc"/>
+                            <outlet property="delegate" destination="cuI-7H-czv" id="LHy-bf-gbM"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Kategoriler" id="hoz-9Y-5rg"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Yd-Cy-p9L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1293" y="252"/>
+        </scene>
+        <!--Vestel Venus e5-->
+        <scene sceneID="ugW-Yb-7dL">
+            <objects>
+                <viewController id="3pC-yz-bzt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ebd-gX-MqY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_telefon3_d" translatesAutoresizingMaskIntoConstraints="NO" id="pTo-de-aRM">
+                                <rect key="frame" x="20" y="112" width="374" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="uf0-eO-8KU"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tA9-Zy-a0F">
+                                <rect key="frame" x="20" y="394" width="374" height="394"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">6.1" 1560x720 HD+ Sınırsız Damla Ekran
+Yapay Zeka Destekli Kamera
+Yüz Tanıma Özelliği
+3GB RAM &amp; 32GB Dahili Hafıza
+3400 mAh typ. Batarya
+
+Ürün Özellikleri
+
+Parmak izi okuyucu teknolojisi, dahili FM radyo, çift nano SIM ve 3.400 mAh typ batarya Vestel Venus e5’te.
+
+İnci Siyahı ve Gece Mavisi renkleri Vestel Venus e5’te
+
+Yüz tanıma özelliği Vestel Venus e5’te
+
+8 Çekirdekli MediaTek işlemci ve 3 GB RAM / 32 GB dahili hafıza Vestel Venus e5’te.
+
+Yapay Zeka Destekli arka kamera ve hem ön hem arka kamerada Portre Modu &amp; Yüz Güzelleştirme Modu Vestel Venus e5’te.
+
+6.1” 1560x720 HD+ Sınırsız Damla Ekran Vestel Venus e5’te.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FfQ-hJ-LBj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="pTo-de-aRM" firstAttribute="leading" secondItem="Ebd-gX-MqY" secondAttribute="leadingMargin" id="1Ru-Ef-YWD"/>
+                            <constraint firstItem="pTo-de-aRM" firstAttribute="top" secondItem="FfQ-hJ-LBj" secondAttribute="top" constant="24" id="5Jc-e6-peq"/>
+                            <constraint firstItem="tA9-Zy-a0F" firstAttribute="top" secondItem="pTo-de-aRM" secondAttribute="bottom" constant="52" id="OJC-6t-rGG"/>
+                            <constraint firstItem="pTo-de-aRM" firstAttribute="trailing" secondItem="Ebd-gX-MqY" secondAttribute="trailingMargin" id="OQi-Vk-SrP"/>
+                            <constraint firstItem="pTo-de-aRM" firstAttribute="trailing" secondItem="tA9-Zy-a0F" secondAttribute="trailing" id="PdS-fL-OPm"/>
+                            <constraint firstItem="FfQ-hJ-LBj" firstAttribute="bottom" secondItem="tA9-Zy-a0F" secondAttribute="bottom" constant="74" id="Ugr-Kv-wk8"/>
+                            <constraint firstItem="pTo-de-aRM" firstAttribute="leading" secondItem="tA9-Zy-a0F" secondAttribute="leading" id="llb-pL-Oze"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Vestel Venus e5" id="K6T-xh-RUR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GfP-S2-h7v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3583" y="2042"/>
+        </scene>
+        <!--Akıllı Telefonlar-->
+        <scene sceneID="eI1-y9-Jh0">
+            <objects>
+                <tableViewController id="bIW-tC-Qxd" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jWV-4i-PBs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="Tca-SY-YSa">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="xGn-HH-G4d" detailTextLabel="Egn-Nc-a0t" imageView="Wd1-8C-2k6" style="IBUITableViewCellStyleSubtitle" id="rOf-am-fe4">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rOf-am-fe4" id="0Un-YO-FZy">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Vestel Venus Z40 Derin Mor Cep Telefonu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xGn-HH-G4d">
+                                                    <rect key="frame" x="91" y="9" width="284" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="3.499 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Egn-Nc-a0t">
+                                                    <rect key="frame" x="91" y="31.5" width="44.5" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_telefon1" id="Wd1-8C-2k6">
+                                                    <rect key="frame" x="20" y="0.0" width="56" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="B0D-s6-YW0" kind="show" id="mbp-cu-EDP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="s5A-7k-2eR" detailTextLabel="49j-qe-zn2" imageView="sTy-H7-hOy" style="IBUITableViewCellStyleSubtitle" id="sLa-YD-RM3">
+                                        <rect key="frame" x="0.0" y="84" width="414" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sLa-YD-RM3" id="c23-t6-CKX">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Vestel Venus V7 İnci Siyahı Cep Telefonu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s5A-7k-2eR">
+                                                    <rect key="frame" x="91" y="9" width="284" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="2.499 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="49j-qe-zn2">
+                                                    <rect key="frame" x="91" y="31.5" width="44.5" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_telefon2" id="sTy-H7-hOy">
+                                                    <rect key="frame" x="20" y="0.0" width="56" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Hqb-f4-cfQ" kind="show" id="q3O-a0-cTT"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="sz2-oh-dUO" detailTextLabel="EGh-iX-Tv1" imageView="UMJ-aF-PE1" style="IBUITableViewCellStyleSubtitle" id="Q87-xe-E0U">
+                                        <rect key="frame" x="0.0" y="140" width="414" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q87-xe-E0U" id="hsh-mO-yv4">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Vestel Venus e5 Gece Mavisi Cep Telefonu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sz2-oh-dUO">
+                                                    <rect key="frame" x="91" y="9" width="284" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="2.399 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EGh-iX-Tv1">
+                                                    <rect key="frame" x="91" y="31.5" width="44.5" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_telefon3" id="UMJ-aF-PE1">
+                                                    <rect key="frame" x="20" y="0.0" width="56" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="3pC-yz-bzt" kind="show" id="61C-uR-ZJA"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="bIW-tC-Qxd" id="Hh8-fu-MCa"/>
+                            <outlet property="delegate" destination="bIW-tC-Qxd" id="UlH-Qb-6ag"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Akıllı Telefonlar" id="MAK-bF-Q8D"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pyn-cb-pO4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3614" y="1318"/>
+        </scene>
+        <!--Vestel Venus Z40 -->
+        <scene sceneID="v5e-8b-jRq">
+            <objects>
+                <viewController id="B0D-s6-YW0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1oq-yY-eF4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ibT-1Q-h23">
+                                <rect key="frame" x="20" y="412" width="374" height="394"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">6.4" FHD+ Sınırsız Tam Amoled Ekran
+Açılır Pop-up Selfie Kamera
+Ekran İçi Parmak İzi Sensörü
+4GB RAM &amp; 128GB Dahili Hafıza
+Kablosuz Şarj
+
+Ürün Özellikleri
+
+Saklanacak bir an varsa 
+Yapay zeka Destekli 16MP+5MP arka kamerası var.
+
+Konuşulacak çok şey varsa 3.500 mAh typ uzun ömürlü bataryası var.
+
+Hayatınızda estetik varsa Metal çerçeve, Derin Mor veya Uzay Mavisi renk seçeneği ve cam arka kapakla şık tasarım var.
+
+Hıza ihtiyacın varsa 
+8 çekirdekli 2.1GHz işlemcisi, 4GB RAM ve 128GB hafızası var.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_telefon1_d" translatesAutoresizingMaskIntoConstraints="NO" id="xxh-mg-V3G">
+                                <rect key="frame" x="20" y="121" width="374" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="FZ5-UA-t3s"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cwa-y3-aqK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xxh-mg-V3G" firstAttribute="trailing" secondItem="ibT-1Q-h23" secondAttribute="trailing" id="BSR-wi-RKc"/>
+                            <constraint firstItem="xxh-mg-V3G" firstAttribute="leading" secondItem="1oq-yY-eF4" secondAttribute="leadingMargin" id="EU2-bu-AKd"/>
+                            <constraint firstItem="ibT-1Q-h23" firstAttribute="top" secondItem="xxh-mg-V3G" secondAttribute="bottom" constant="61" id="KkD-qx-kXU"/>
+                            <constraint firstItem="xxh-mg-V3G" firstAttribute="trailing" secondItem="1oq-yY-eF4" secondAttribute="trailingMargin" id="TZR-cB-U8F"/>
+                            <constraint firstItem="xxh-mg-V3G" firstAttribute="top" secondItem="cwa-y3-aqK" secondAttribute="top" constant="33" id="duS-JY-vXd"/>
+                            <constraint firstItem="cwa-y3-aqK" firstAttribute="bottom" secondItem="ibT-1Q-h23" secondAttribute="bottom" constant="56" id="faj-SS-zRm"/>
+                            <constraint firstItem="xxh-mg-V3G" firstAttribute="leading" secondItem="ibT-1Q-h23" secondAttribute="leading" id="k5V-ll-3JH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Vestel Venus Z40 " id="Xf2-2O-wR2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N7W-mE-bp6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4415.9420289855079" y="1317.8571428571429"/>
+        </scene>
+        <!--Vestel Venus V7 -->
+        <scene sceneID="elx-So-EyU">
+            <objects>
+                <viewController id="Hqb-f4-cfQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yvb-aU-Dpm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_telefon2_d" translatesAutoresizingMaskIntoConstraints="NO" id="6mi-3I-bXe">
+                                <rect key="frame" x="20" y="110" width="374" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="hIR-LD-Rkb"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WBs-OZ-gon">
+                                <rect key="frame" x="20" y="399" width="374" height="394"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">19:9 6.21" HD+ Sınırsız Damla Ekran
+Yapay Zeka Destekli 13MP + 2MP Arka Kamera / 8MP Ön Kamera
+Yüz Tanıma Özelliği
+3GB RAM &amp; 64GB Dahili Hafıza
+Kutu içerisinde kılıf ve ekran koruyucu hediyesi ile birlikte
+
+Ürün Özellikleri
+
+GÜVENLİK 
+Yüz Tanıma Özelliği ve Parmak İzi Sensörü ile kişisel güvenliği kolaylaştıran Venus V7 her modunda yanında
+
+TASARIM 
+8.1 mm’lik ince tasarımı ve şık renk seçenekleriyle
+Venus V7 her modunda yanında.
+
+PİL ÖMRÜ 
+4050 mAh typ. batarya ile uzun pil ömrü sağlayan Venus V7 her modunda yanında.
+
+KAMERA 
+Portre ve yüz güzelleştirme modunu destekleyen 8MP ön kamerası, yapay zeka destekli 13MP + 2MP arka kamerası ve 52MP çözünürlüğünde fotoğraf kalitesiyle Venus V7 her modunda yanında
+
+GÜÇ 
+2.0 GHz 8 Çekirdekli Mediatek işlemcisi, 3GB RAM ve 64GB dahili hafızasıyla Venus V7 her modunda yanında.
+
+EKRAN 
+19:9 6.21" HD Plus Sınırsız Damla Ekranı, %89,2 ekran-kasa oranıyla Venus V7 her modunda yanında.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vZ0-AY-aw0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6mi-3I-bXe" firstAttribute="leading" secondItem="Yvb-aU-Dpm" secondAttribute="leadingMargin" id="8bl-Bg-O9z"/>
+                            <constraint firstItem="6mi-3I-bXe" firstAttribute="leading" secondItem="WBs-OZ-gon" secondAttribute="leading" id="DmQ-lV-fJb"/>
+                            <constraint firstItem="6mi-3I-bXe" firstAttribute="trailing" secondItem="Yvb-aU-Dpm" secondAttribute="trailingMargin" id="JLx-ai-EGT"/>
+                            <constraint firstItem="6mi-3I-bXe" firstAttribute="trailing" secondItem="WBs-OZ-gon" secondAttribute="trailing" id="iqe-La-j2E"/>
+                            <constraint firstItem="6mi-3I-bXe" firstAttribute="top" secondItem="vZ0-AY-aw0" secondAttribute="top" constant="22" id="p2r-5Y-mso"/>
+                            <constraint firstItem="vZ0-AY-aw0" firstAttribute="bottom" secondItem="WBs-OZ-gon" secondAttribute="bottom" constant="69" id="rUi-3w-WGH"/>
+                            <constraint firstItem="WBs-OZ-gon" firstAttribute="top" secondItem="6mi-3I-bXe" secondAttribute="bottom" constant="59" id="wRV-97-0Vd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Vestel Venus V7 " id="r1H-of-LcN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LKW-Y9-KBE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4416" y="2042"/>
+        </scene>
+        <!--Çamaşır Makineleri-->
+        <scene sceneID="FMW-qg-4eJ">
+            <objects>
+                <tableViewController id="4ea-Ji-og7" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Vy7-8Q-5eZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="j5D-Tk-6Yc">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="H93-O3-cjz" detailTextLabel="JbY-jp-w1Q" imageView="gU6-MF-eft" style="IBUITableViewCellStyleSubtitle" id="REW-9I-Soo">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="REW-9I-Soo" id="5IW-xP-d5Y">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Vestel CMI 10812 Çamaşır Makinesi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="H93-O3-cjz">
+                                                    <rect key="frame" x="120" y="9" width="255" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="3.799 ₺" textAlignment="natural" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JbY-jp-w1Q">
+                                                    <rect key="frame" x="120" y="31.5" width="43.5" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_camasir_3" id="gU6-MF-eft">
+                                                    <rect key="frame" x="20" y="0.0" width="85" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Vcs-Nm-wUV" kind="show" id="RTt-U6-2LB"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="aQ4-N4-Khg" detailTextLabel="iU8-ZE-LHs" imageView="vyi-Ac-5rp" style="IBUITableViewCellStyleSubtitle" id="26a-zv-v4t">
+                                        <rect key="frame" x="0.0" y="84" width="414" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="26a-zv-v4t" id="re3-Pl-HAn">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Vestel CMI 10812 GI Çamaşır Makinesi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aQ4-N4-Khg">
+                                                    <rect key="frame" x="120" y="9" width="255" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="3.699 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iU8-ZE-LHs">
+                                                    <rect key="frame" x="120" y="31.5" width="44.5" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_camasir_1" id="vyi-Ac-5rp">
+                                                    <rect key="frame" x="20" y="0.0" width="85" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="PN8-hZ-O0z" kind="show" id="Ba9-3p-fGc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="4ea-Ji-og7" id="mfU-16-w1N"/>
+                            <outlet property="delegate" destination="4ea-Ji-og7" id="E6X-YF-yhV"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Çamaşır Makineleri" id="jrG-Kx-FtG"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8j7-o1-KWg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3583" y="252"/>
+        </scene>
+        <!--Vestel CMI 10812 GI Çamaşır Makinesi-->
+        <scene sceneID="GD4-C5-Kn6">
+            <objects>
+                <viewController id="PN8-hZ-O0z" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ct0-BM-7AJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_camasir1_d" translatesAutoresizingMaskIntoConstraints="NO" id="uaL-cQ-gHp">
+                                <rect key="frame" x="20" y="118" width="374" height="232"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="232" id="aZj-q9-7uy"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lsx-bp-bjL">
+                                <rect key="frame" x="20" y="409" width="374" height="430"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">10 KG-1200 Devir
+A+++ (-%20)
+Gün Işığı Teknolojisi
+Sessiz İnverter Motor
+10 Yıl Motor Garantisi
+
+Ürün Özellikleri
+
+Hızlı 12 DK Programı
+Bugüne kadarki bildiğiniz tüm hızlı yıkama programlarını unutun! Sizi Vestel çamaşır makinelerinde yer alan Süper Hızlı 12 Dk Programı ile tanıştırıyoruz. Türkiye’deki en hızlı çamaşır yıkama programı olan bu fonksiyon, Vestel farkıyla evlerinize geliyor. Kirli sepetinizde yer alan acil ihtiyaç duyduğunuz çamaşırlarınız mı var? Dert değil. Vestel Süper Hızlı 12 Dk Programı ile rekor sürede temiz çamaşırlara sahip olabilirsiniz. 2 kilograma kadar olan hafif kirli çamaşırlarınızı, yalnızca 12 dakikada tertemiz yapan bu fonksiyon sayesinde zamandan tasarruf etmeye hazır olun! Yerli üretimin gururu Vestel ile zamanınızı daha değerli kılmanız mümkün
+
+Alerji Uzmanı 
+Minik bebeğinizin hassas teni sebebiyle, çamaşırlarınızda özel bir yıkama tercih etmeniz gerekebilir. Bebeğinizin çamaşırlarında alerji oluşumuna sebep verebilecek bakteri türlerine karşı etkili bir yıkama sunan Alerji Uzmanı programı, Vestel çamaşır makinelerinde sizi bekliyor. İngiltere’nin en prestijli alerji kurumu olan Allergy UK onaylı bu program, 7 farklı alerjen ve 4 farklı bakteri türüne karşı etkin bir yıkama sunuyor. Böylece bebeğinizin çamaşırlarında tam bir hijyen sağlanırken, sizin de içiniz rahat ediyor. Yenilikçi teknolojilerin öncüsü Vestel, duyarlı annelerin her zaman hizmetinde ve yanında olmaktan gurur duyuyor!
+
+TwinJet Teknolojisi
+Çamaşır makineleri, evlere girdiği günden bugüne insan hayatını büyük ölçüde kolaylaştırdı. Hatta her geçen gün ilerleyen teknoloji ile birlikte, beklentilerin de üstünde performans sergileyerek en zorlu lekelere bile tek yıkamada meydan okuyabilir hale geldi. Ancak siz yine de tazyikli su ve köpüğün, temizlikte ayrı bir öneme sahip olduğunu düşünüyor olabilirsiniz. Öyleyse TwinJet teknolojili Vestel çamaşır makinelerinin göz dolduran performansına tanıklık etmeye hazır olun! TwinJet teknolojisi ile geliştirilen Vestel çamaşır makineleri, kazan bölümünde iki özel su jetine sahip olması sayesinde deterjanlı suyu çamaşırlara çok daha hızlı püskürtüyor. Böylece normal yıkamadan çok daha etkin ve üstün temizlik sağlıyor.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TpY-gS-SxK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uaL-cQ-gHp" firstAttribute="top" secondItem="TpY-gS-SxK" secondAttribute="top" constant="30" id="63z-8n-PEh"/>
+                            <constraint firstItem="uaL-cQ-gHp" firstAttribute="trailing" secondItem="lsx-bp-bjL" secondAttribute="trailing" id="CsZ-MN-Xgi"/>
+                            <constraint firstItem="lsx-bp-bjL" firstAttribute="top" secondItem="uaL-cQ-gHp" secondAttribute="bottom" constant="59" id="FmF-cm-oDc"/>
+                            <constraint firstItem="uaL-cQ-gHp" firstAttribute="trailing" secondItem="ct0-BM-7AJ" secondAttribute="trailingMargin" id="IqK-Pm-qJK"/>
+                            <constraint firstItem="uaL-cQ-gHp" firstAttribute="leading" secondItem="lsx-bp-bjL" secondAttribute="leading" id="RsL-XO-EAY"/>
+                            <constraint firstItem="TpY-gS-SxK" firstAttribute="bottom" secondItem="lsx-bp-bjL" secondAttribute="bottom" constant="23" id="SYC-PF-gSJ"/>
+                            <constraint firstItem="uaL-cQ-gHp" firstAttribute="leading" secondItem="ct0-BM-7AJ" secondAttribute="leadingMargin" id="pno-9d-jBB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Vestel CMI 10812 GI Çamaşır Makinesi" id="Pr1-Nk-4uh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y53-z8-dLE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4414.4927536231889" y="643.52678571428567"/>
+        </scene>
+        <!--Vestel CMI 10812 Çamaşır Makinesi-->
+        <scene sceneID="YJu-ej-x7i">
+            <objects>
+                <viewController id="Vcs-Nm-wUV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KmZ-kH-Xux">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_camasir3_d" translatesAutoresizingMaskIntoConstraints="NO" id="26P-lP-XQd">
+                                <rect key="frame" x="20" y="74" width="374" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="7xC-vf-oRZ"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3AS-e2-5bn">
+                                <rect key="frame" x="20" y="328" width="374" height="508"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">10 Kg
+1200 Devir
+A+++ (-%20)
+Sessiz Inverter Motor
+10 Yıl Motor Garantisi
+
+Ürün Özellikleri
+
+Yorgan Yıkama Programı 
+Çamaşırların yanı sıra ciltle sürekli temas halinde olan ev tekstil ürünlerinin hijyeni, günlük yaşamda temizliği sağlamanın en önemli şartını oluşturuyor. Bu nedenle her gün giydiğiniz çamaşırlar gibi evinizdeki koltuk kılıfları, perdeler ve nevresimler gibi çeşitli kumaş ürünlerini de belirli aralıklarla yıkıyor olmalısınız. Fakat çarşaf ve nevresimlerinizi sık sık yıkasanız da yorganlarda zamanla biriken kir ve akarlar, sağlığınızı olumsuz etkilemeye devam ediyor. Peki, siz yorganlarınızın hijyenini nasıl sağlıyorsunuz? Vestel çamaşır makinelerinin yorgan yıkama programı sayesinde bu, artık çamaşır yıkamak kadar kolay! Üzerinde yıkanabilir etiketi olan maksimum 2 kilogramlık elyaf yorganlarınızı böylece rahatlıkla yıkayabilirsiniz.
+
+Boomerang Gövde 
+Çamaşır makinenizin sessiz çalıştığını düşünebilirsiniz. Peki sıkma esnasında çıkardığı ses için de aynı şeyi söylemeniz mümkün mü? Ya etrafa yaydığı titreşim? Belki de zaman zaman makinenizin yerinden hareket ettiğine bile şahit olmuşsunuzdur. İşte sizi, tüm bunları geride bırakan Boomerang Gövde ile tanıştırmak istiyoruz. Vestel’in çamaşır makinelerinde geliştirdiği Boomerang Gövde sayesinde makine, sıkma işlemini gerçekleştirirken de minimum gürültüde çalışıyor. Üstelik bu esnada titreşimi de en aza indirerek, hareket eden ya da duvara vuran makine görüntülerini tarihe karıştırıyor. Size de bu durumun keyfini çıkarmak kalıyor. Vestel çamaşır makineleriyle artık dilediğiniz saatte çamaşır yıkamanız mümkün!
+
+Inverter Motor 
+Çamaşır makinenizin, yıkama sonunda ıslaklığı en aza indirmek için çok fazla devir yapması gerekir. Bu durum ise doğal olarak, tamburun dönüşü esnasında makinenin çok fazla enerji sarf etmesine ve oldukça yüksek bir ses çıkarmasına neden olur. Tabii çamaşır makineniz, inverter motora sahip değilse… Dijital kontrollü inverter motor teknolojisi, geleneksel motorlara kıyasla makinenizin çok daha sessiz ve düşük enerji ile çalışmasını sağlıyor. Bunun yanı sıra makinenizin uzun yıllar boyunca yüksek performansla çalışmasını mümkün kılıyor. İnverter motorlu Vestel çamaşır makineleri ile çamaşırlarınızı dilediğiniz saatte yıkarken, aynı zamanda enerjiden tasarruf ederek ev ekonominize katkıda bulunabilirsiniz.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rTD-cc-h8E"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="26P-lP-XQd" firstAttribute="top" secondItem="KmZ-kH-Xux" secondAttribute="topMargin" constant="-14" id="0Lc-Lr-szg"/>
+                            <constraint firstItem="26P-lP-XQd" firstAttribute="trailing" secondItem="3AS-e2-5bn" secondAttribute="trailing" id="17P-GZ-ERA"/>
+                            <constraint firstItem="rTD-cc-h8E" firstAttribute="bottom" secondItem="3AS-e2-5bn" secondAttribute="bottom" constant="26" id="6Kn-8d-wNp"/>
+                            <constraint firstItem="3AS-e2-5bn" firstAttribute="top" secondItem="26P-lP-XQd" secondAttribute="bottom" constant="24" id="XXC-uR-X0V"/>
+                            <constraint firstItem="26P-lP-XQd" firstAttribute="leading" secondItem="KmZ-kH-Xux" secondAttribute="leadingMargin" id="YiI-lp-61j"/>
+                            <constraint firstItem="26P-lP-XQd" firstAttribute="trailing" secondItem="KmZ-kH-Xux" secondAttribute="trailingMargin" id="mjb-NV-t3h"/>
+                            <constraint firstItem="26P-lP-XQd" firstAttribute="leading" secondItem="3AS-e2-5bn" secondAttribute="leading" id="vQ2-8Q-xpc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Vestel CMI 10812 Çamaşır Makinesi" id="fr8-qD-Vej"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o9C-47-ZqL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4416" y="-13"/>
+        </scene>
+        <!--Buzdolapları-->
+        <scene sceneID="536-aI-brs">
+            <objects>
+                <tableViewController id="fWQ-DA-AfG" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7Bi-VF-0yG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="1LF-YD-jbi">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="8FX-yt-NGF" detailTextLabel="c3h-X8-ciS" imageView="wGZ-g5-JWH" style="IBUITableViewCellStyleSubtitle" id="6Oy-fg-113">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Oy-fg-113" id="QJx-de-MFS">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="520 LT A++ No-Frost Buzdolabı NF520 A++" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8FX-yt-NGF">
+                                                    <rect key="frame" x="120" y="9" width="255" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="3.849 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c3h-X8-ciS">
+                                                    <rect key="frame" x="120" y="31.5" width="44.5" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_buzdolabi_3" id="wGZ-g5-JWH">
+                                                    <rect key="frame" x="20" y="0.0" width="85" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="uBf-7c-31c" kind="show" id="wrw-4y-f5d"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="tMW-8B-Vae" detailTextLabel="yez-kZ-geZ" imageView="nGB-AR-mjf" style="IBUITableViewCellStyleSubtitle" id="FBs-0i-biL">
+                                        <rect key="frame" x="0.0" y="84" width="414" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FBs-0i-biL" id="Fyl-AO-7T6">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="655 LT No-Frost Buzdolabı PUZZLE NF6551 EX MAYA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tMW-8B-Vae">
+                                                    <rect key="frame" x="120" y="9" width="255" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="12.999 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yez-kZ-geZ">
+                                                    <rect key="frame" x="120" y="31.5" width="50" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_buzdolabi_1" id="nGB-AR-mjf">
+                                                    <rect key="frame" x="20" y="0.0" width="85" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="54z-eR-uNJ" kind="show" id="ugy-P9-raa"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="m1O-yB-D8d" detailTextLabel="kQc-D2-LD8" imageView="UdJ-ZT-A7e" style="IBUITableViewCellStyleSubtitle" id="4mm-19-0R5">
+                                        <rect key="frame" x="0.0" y="140" width="414" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4mm-19-0R5" id="bqI-8Q-USh">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="350 LT No-Frost Buzdolabi RETRO NFK3501 Kırmızı" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="m1O-yB-D8d">
+                                                    <rect key="frame" x="120" y="9" width="255" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="5.999 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kQc-D2-LD8">
+                                                    <rect key="frame" x="120" y="31.5" width="44" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_buzdolabi_2" id="UdJ-ZT-A7e">
+                                                    <rect key="frame" x="20" y="0.0" width="85" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="HHw-kv-8Vz" kind="show" id="6Ab-4w-LAT"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="fWQ-DA-AfG" id="m4x-uK-i6L"/>
+                            <outlet property="delegate" destination="fWQ-DA-AfG" id="RbN-jS-sFq"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Buzdolapları" id="sfb-eL-99g"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NH5-hE-jis" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3583" y="-796"/>
+        </scene>
+        <!--655 LT No-Frost Buzdolabı PUZZLE-->
+        <scene sceneID="VYr-eZ-s0r">
+            <objects>
+                <viewController id="54z-eR-uNJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vEY-1x-UDp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_buzdolabi1_d" translatesAutoresizingMaskIntoConstraints="NO" id="iJE-Fm-Oii">
+                                <rect key="frame" x="20" y="125" width="374" height="311"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="311" id="wd1-q5-4Ot"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TTU-Qi-sap">
+                                <rect key="frame" x="20" y="470" width="374" height="377"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Maya Teknolojisi
+Multizone Bölme (Çok İşlevli Bölme)
+Aktif İyon Teknolojisi
+Taze Hava Teknolojisi
+Çok Yönlü Soğutma Sistem
+
+Ürün Özellikleri
+
+Maya Teknolojisi Fermantasyon adıyla da bilinen mayalanma, bir maddenin mikroorganizmalar aracılığıyla kimyasal değişim geçirmesini ifade ediyor. Yoğurt, malt içecekler ve ekmek türleri gibi birçok gıda, fermantasyon işlemi sayesinde sofralarımıza mevcut formlarıyla geliyor. Maya Teknolojisi; yoğurt, hamur, turşu, sirke, kefir, bira ve şarap olmak üzere toplamda 7 farklı gıdanın mayalanması için ideal fermantasyon ve depolama koşullarını sağlar, mayalama işlemi sonrasında ise bölme otomatik olarak saklama koşuluna ayarlanır. Bu sayede ürünün başında beklenmesine gerek kalmadan, zahmetsizce ama el lezzetiyle mayalanan gıdaları keyifle tüketilmesi kullanıcısına kalır.
+
+Sesli Kapı Açık Alarmı 
+Akşam için çok özel misafirleriniz geliyor ve sizin oldukça geniş bir menü hazırlamanız şart! Hazırlayacağınız yemekler içinse çoktan alışverişe çıkıldı. Derken; saat epeyce ilerledi ve artık yemekleri hazırlamaya başlamanız gerekiyor. Fakat o da ne? Uzun saatler boyunca siz yemeğinizi hazırlarken birden dolabınızın açık kaldığını fark ettiniz. Ancak ne zamandır açık olduğunu bilmediğinizden epeyce elektrik harcamış olma ihtimaliniz oldukça yüksek. Bu hikaye size de bir yerlerden tanıdık geldi mi? Vestel’in akıllı buzdolapları sayesinde artık açık kalan kapaklardan kurtulmanız mümkün. “Kapı Açık Alarm Fonksiyonu” ile buzdolabınızın kapağı 2 dakikadan fazla açık kaldığında alarm devreye girer ve böylece uyarılırsınız.
+
+Maksimum Tazelik Teknolojisi Uzun ve kapsamlı bir mutfak alışverişinden sonra sebze ve meyve dolu poşetlerle sonunda eve geldiniz. Ve tazeliğin yanı sıra hijyen de sizin için oldukça önemli. Dolayısıyla aldığınız gıdaları en iyi haliyle korumak için buzdolabınızı her zaman temiz tutuyorsunuz. Ancak sebze ve meyveleri buzdolabına koymadan önce tek tek yıkasanız dahi gıdaların bozulmasının önüne geçmek hayli zor. Bu nedenle Vestel; meyve ve sebzelerin solunumuyla ortaya çıkan etilen gazını yok eden maksimum tazelik teknolojisini geliştirdi. Maksimum tazelik teknolojisi, özellikle de etilen hassasiyeti yüksek yeşil sebzelerin raf ömrünün uzamasına önemli katkıda bulunuyor. Bu sayede gıdalar bir yandan dalından yeni koparılmış gibi taze kalırken, diğer yandan kötü kokuların oluşumu engelleniyor.
+
+Çocuk Kilidi Modu Ürettiği teknolojilerin yanı sıra güvenliğinizi de düşünen Vestel, çocukların beyaz eşya ile olan temaslarını, tehlikeli olması sebebi ile en aza indirmek için çalışıyor. Çocukların en sık temasta bulundukları eşyalardan biri olan buzdolapları için de “Çocuk Kilidi” modunu tasarlayan Vestel, her şeyden önce onların güvenliğini düşünüyor. Siz de Vestel buzdolaplarında yer alan bu modu kolaylıkla aktifleştirerek, çocuklarınızın düğmeler ile oynamalarını önleyebilirsiniz. Ayrıca bu mod sayesinde hali hazırda seçmiş olduğunuz ayarlamaların da değiştirilmesine engel olabilirsiniz. Dilediğiniz zaman kaldırabileceğiniz bu mod ile hem siz hem de çocuklarınızın güvenliği sağlanmış olur.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bfS-sY-hZa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iJE-Fm-Oii" firstAttribute="top" secondItem="bfS-sY-hZa" secondAttribute="top" constant="37" id="Itb-xc-X0p"/>
+                            <constraint firstItem="iJE-Fm-Oii" firstAttribute="leading" secondItem="TTU-Qi-sap" secondAttribute="leading" id="LAJ-PK-E4N"/>
+                            <constraint firstItem="bfS-sY-hZa" firstAttribute="bottom" secondItem="TTU-Qi-sap" secondAttribute="bottom" constant="15" id="WmQ-ex-cTm"/>
+                            <constraint firstItem="iJE-Fm-Oii" firstAttribute="trailing" secondItem="TTU-Qi-sap" secondAttribute="trailing" id="aN7-9x-I25"/>
+                            <constraint firstItem="TTU-Qi-sap" firstAttribute="top" secondItem="iJE-Fm-Oii" secondAttribute="bottom" constant="34" id="csk-8I-LO0"/>
+                            <constraint firstItem="iJE-Fm-Oii" firstAttribute="leading" secondItem="vEY-1x-UDp" secondAttribute="leadingMargin" id="g3M-Sw-Wq8"/>
+                            <constraint firstItem="iJE-Fm-Oii" firstAttribute="trailing" secondItem="vEY-1x-UDp" secondAttribute="trailingMargin" id="nzL-Rh-l1W"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="655 LT No-Frost Buzdolabı PUZZLE" id="DVr-oX-OHe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ULR-It-PwA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5234.7826086956529" y="-500.22321428571428"/>
+        </scene>
+        <!--350 LT No-Frost Buzdolabi RETRO-->
+        <scene sceneID="Yt2-9p-dKF">
+            <objects>
+                <viewController id="HHw-kv-8Vz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a21-UH-WtF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_buzdolabi2_d" translatesAutoresizingMaskIntoConstraints="NO" id="f2d-Wi-hEg">
+                                <rect key="frame" x="20" y="119" width="374" height="319"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="319" id="jZp-gb-d7k"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gON-0s-PrD">
+                                <rect key="frame" x="20" y="477" width="374" height="360"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Çok Yönlü Soğutma Sistemi
+Hareket Kolaylığı Sağlayan Tekerlekler
+Şişe Rafı (Tel Yatay Şişelikler)
+
+Ürün Özellikleri
+
+Şişe Rafı (Tel Yatay Şişelikler) En olmadık zamanlarda dolaba şişe sığdırma çabası, sanıyoruz ki herkesin başına gelmiştir. Kapakta yer alan şişeliklerin yetersiz olduğu durumlarda imdadınıza yetişecek olan “Şişe Rafı (Tel Yatay Şişelikler)”, Vestel’in akıllı buzdolaplarında sizi bekliyor. Buzdolabınızın cam rafları üzerinde, size ekstra alan bırakacak olan tel raflar sayesinde şişelerinizi kolaylıkla yerleştirebilirsiniz. Üstelik yatay olarak yerleştirilen konumu ile alandan tasarruf sağlamanız da mümkün. Böylece yüksekliği fazla olan şişeleriniz için de ekstra çaba harcamanıza gerek kalmıyor. Vestel akıllı buzdolapları, ihtiyaçlarınıza yönelik akıllı çözümleriyle her zaman yanınızda!
+
+Çok Yönlü Soğutma Sistemi Mutfak alışverişine henüz çıktınız ve damak zevkinize hitap eden bir dolu yiyecekle eve döndünüz. Peki, buzdolabına yerleştirirken hangi yiyeceklerden vazgeçebilirsiniz? Böyle bir durum elbette söz konusu olamaz değil mi? Ancak mevcut buzdolabınız, sadece tek bir noktadan hava üflemesi nedeniyle özellikle de tüm raflar dolu olduğunda soğukluğu her bölgeye eşit dağıtamıyor olabilir. Bu durumda ise belli raflarda yer alan yiyecekler korunurken diğer raflardakiler anında bozulmaya başlar. Vestel buzdolaplarında yer alan çok yönlü soğutma sistemi, her rafa ayrı ayrı hava üflenmesini sağlayarak buzdolabınızın her yerini eşit oranda soğutuyor. Böylece buzdolabınız tamamen dolu olduğunda bile gıdalarınız ilk günkü gibi taze kalıyor.
+
+Hareket Kolaylığı Sağlayan Tekerlekler “Mutfakta temizliği zorlaştıran en zor şey nedir?” sorusunu yöneltsek, şüphesiz ki pek çoğunuz, buzdolabının arkasını temizlemek cevabını verirdi. Ancak bu en büyük zorluk olarak kabul edilen şey, Vestel akıllı buzdolaplarının kullanışlı fonksiyonları ile artık geçmişte kalıyor! Yeni nesil Vestel buzdolaplarının altında yer alan “Hareket Kolaylığı Sağlayan Tekerlekler” sayesinde, temizlik esnasında buzdolabınızı dilediğiniz gibi hareket ettirebilir, dip köşe mutfak temizliğinin tadını çıkarabilirsiniz. Üstelik yalnızca temizlikte değil, mutfak dizaynınızı değiştirmek istediğiniz her an, tekerlekler imdadınıza koşacak. Yerli üretimin gururu Vestel ile hayatınızı kolaylaştıran çözümler için siz de hemen bir Vestel buzdolabı edinin, farkı görün!</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RyI-aP-P94"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f2d-Wi-hEg" firstAttribute="leading" secondItem="gON-0s-PrD" secondAttribute="leading" id="Cf8-Rz-eeG"/>
+                            <constraint firstItem="f2d-Wi-hEg" firstAttribute="trailing" secondItem="gON-0s-PrD" secondAttribute="trailing" id="EG4-ey-WWy"/>
+                            <constraint firstItem="f2d-Wi-hEg" firstAttribute="top" secondItem="RyI-aP-P94" secondAttribute="top" constant="31" id="Hz7-zl-8ki"/>
+                            <constraint firstItem="f2d-Wi-hEg" firstAttribute="leading" secondItem="a21-UH-WtF" secondAttribute="leadingMargin" id="O61-Jo-VgX"/>
+                            <constraint firstItem="RyI-aP-P94" firstAttribute="bottom" secondItem="gON-0s-PrD" secondAttribute="bottom" constant="25" id="Uqo-cF-DhI"/>
+                            <constraint firstItem="f2d-Wi-hEg" firstAttribute="trailing" secondItem="a21-UH-WtF" secondAttribute="trailingMargin" id="YeQ-lc-Xkh"/>
+                            <constraint firstItem="gON-0s-PrD" firstAttribute="top" secondItem="f2d-Wi-hEg" secondAttribute="bottom" constant="39" id="yFI-cS-3Jd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="350 LT No-Frost Buzdolabi RETRO" id="4eM-35-lDe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AyF-sa-6lI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5234.7826086956529" y="-1156.4732142857142"/>
+        </scene>
+        <!--520 LT A++ No-Frost Buzdolabı NF520-->
+        <scene sceneID="yWw-z1-k5F">
+            <objects>
+                <viewController id="uBf-7c-31c" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u8g-dM-ROW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_buzdolabi3_d" translatesAutoresizingMaskIntoConstraints="NO" id="byQ-Bc-6a5">
+                                <rect key="frame" x="20" y="107" width="374" height="235"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="235" id="0eO-n8-ziV"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0gU-7V-Xpc">
+                                <rect key="frame" x="20" y="361" width="374" height="471"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Taze Hava Teknolojisi
+Çok Yönlü Soğutma Sistemi
+0°C Bölmesi
+Otomatik Sıcaklık Kontrolü
+Elektronik Kontrol Paneli
+
+Ürün Özellikleri
+
+Hareketli Cam Raf 
+Bazen buzdolabınızın içi ne kadar geniş olursa olsun, yiyeceklerinizi sığdırmakta zorlanırsınız. Özellikle de kalabalık bir akşam yemeği hazırlığında, aldığınız yiyeceklerin yanı sıra büyük bir özenle hazırladığınız yemeklerin tencerelerini sığdırmakta zorlanabilirsiniz. O halde sizi Vestel buzdolaplarında yer alan “Hareketli Cam Raf” özelliği ile tanıştıralım. Yeni nesil Vestel buzdolaplarında yer alan bu cam raf mekanizması sayesinde, yüksekliği fazla olan yiyecekleriniz ya da tencere ve kaplarınız için uygun depolama alanı sağlanıyor. Bunun içinse katlamak istediğiniz rafı, arkaya doğru itmeniz yeterli. Açmış olduğunuz ekstra alanda, sığdırmak istediğiniz malzemeleri dilediğiniz gibi yükleyebilirsiniz.
+
+Sesli Kapı Açık Alarmı 
+Akşam için çok özel misafirleriniz geliyor ve sizin oldukça geniş bir menü hazırlamanız şart! Hazırlayacağınız yemekler içinse çoktan alışverişe çıkıldı. Derken; saat epeyce ilerledi ve artık yemekleri hazırlamaya başlamanız gerekiyor. Fakat o da ne? Uzun saatler boyunca siz yemeğinizi hazırlarken birden dolabınızın açık kaldığını fark ettiniz. Ancak ne zamandır açık olduğunu bilmediğinizden epeyce elektrik harcamış olma ihtimaliniz oldukça yüksek. Bu hikaye size de bir yerlerden tanıdık geldi mi? Vestel’in akıllı buzdolapları sayesinde artık açık kalan kapaklardan kurtulmanız mümkün. “Kapı Açık Alarm Fonksiyonu” ile buzdolabınızın kapağı 2 dakikadan fazla açık kaldığında alarm devreye girer ve böylece uyarılırsınız.
+
+Maksimum Tazelik Teknolojisi Uzun ve kapsamlı bir mutfak alışverişinden sonra sebze ve meyve dolu poşetlerle sonunda eve geldiniz. Ve tazeliğin yanı sıra hijyen de sizin için oldukça önemli. Dolayısıyla aldığınız gıdaları en iyi haliyle korumak için buzdolabınızı her zaman temiz tutuyorsunuz. Ancak sebze ve meyveleri buzdolabına koymadan önce tek tek yıkasanız dahi gıdaların bozulmasının önüne geçmek hayli zor. Bu nedenle Vestel; meyve ve sebzelerin solunumuyla ortaya çıkan etilen gazını yok eden maksimum tazelik teknolojisini geliştirdi. Maksimum tazelik teknolojisi, özellikle de etilen hassasiyeti yüksek yeşil sebzelerin raf ömrünün uzamasına önemli katkıda bulunuyor. Bu sayede gıdalar bir yandan dalından yeni koparılmış gibi taze kalırken, diğer yandan kötü kokuların oluşumu engelleniyor.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7Xy-Yu-HGJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="byQ-Bc-6a5" firstAttribute="trailing" secondItem="u8g-dM-ROW" secondAttribute="trailingMargin" id="2vg-4n-hcQ"/>
+                            <constraint firstItem="0gU-7V-Xpc" firstAttribute="top" secondItem="byQ-Bc-6a5" secondAttribute="bottom" constant="19" id="36l-Mo-9mt"/>
+                            <constraint firstItem="byQ-Bc-6a5" firstAttribute="trailing" secondItem="0gU-7V-Xpc" secondAttribute="trailing" id="6qT-pt-hpp"/>
+                            <constraint firstItem="byQ-Bc-6a5" firstAttribute="leading" secondItem="u8g-dM-ROW" secondAttribute="leadingMargin" id="GMb-mz-FqT"/>
+                            <constraint firstItem="7Xy-Yu-HGJ" firstAttribute="bottom" secondItem="0gU-7V-Xpc" secondAttribute="bottom" constant="30" id="RxD-sj-o36"/>
+                            <constraint firstItem="byQ-Bc-6a5" firstAttribute="leading" secondItem="0gU-7V-Xpc" secondAttribute="leading" id="gct-y3-LPC"/>
+                            <constraint firstItem="byQ-Bc-6a5" firstAttribute="top" secondItem="7Xy-Yu-HGJ" secondAttribute="top" constant="19" id="iEQ-OK-79S"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="520 LT A++ No-Frost Buzdolabı NF520" id="H2V-gp-Bgw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Keh-Dn-bBk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4415.9420289855079" y="-796.20535714285711"/>
+        </scene>
+        <!--Hakkımızda-->
+        <scene sceneID="WsI-lP-XZC">
+            <objects>
+                <tableViewController id="etp-wd-Pfv" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" sectionIndexMinimumDisplayRowCount="-1" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="PVe-n6-a17">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Kurumsal" id="lxz-Ob-AQx">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="dHi-eW-o64" imageView="geQ-6O-a96" style="IBUITableViewCellStyleDefault" id="4F6-eo-ayE">
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4F6-eo-ayE" id="2gc-Hr-xCM">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Yönetim Kurulu Başkanının Mesajı" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dHi-eW-o64">
+                                                    <rect key="frame" x="100" y="0.0" width="275" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="manager_message" id="geQ-6O-a96">
+                                                    <rect key="frame" x="35" y="0.0" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" staticText="YES"/>
+                                        </accessibility>
+                                        <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="35" bottom="8" trailing="8"/>
+                                        <connections>
+                                            <segue destination="kaA-4Q-3BB" kind="show" id="zZa-B8-11o"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Hzy-Om-Fm5" imageView="dub-ty-kSB" style="IBUITableViewCellStyleDefault" id="x7r-r6-Ozn">
+                                        <rect key="frame" x="0.0" y="105.5" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="x7r-r6-Ozn" id="6aC-ZH-uiV">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Zorlu Grup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hzy-Om-Fm5">
+                                                    <rect key="frame" x="106" y="0.0" width="269" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <edgeInsets key="layoutMargins" top="8" left="7" bottom="8" right="8"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="zorlu_logo" id="dub-ty-kSB">
+                                                    <rect key="frame" x="20" y="0.0" width="71" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="izw-Yq-2FU" kind="show" id="xZw-Uz-8fv"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="c6E-Za-t3r" imageView="aiU-jn-4uY" style="IBUITableViewCellStyleDefault" id="gOI-o6-Cew">
+                                        <rect key="frame" x="0.0" y="155.5" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gOI-o6-Cew" id="4CS-mB-Bw2">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Vestel Grup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c6E-Za-t3r">
+                                                    <rect key="frame" x="101" y="0.0" width="274" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vestel_logo_d" id="aiU-jn-4uY">
+                                                    <rect key="frame" x="36" y="0.0" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                            <edgeInsets key="layoutMargins" top="8" left="36" bottom="8" right="8"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="cg4-Ux-Baz" kind="show" id="kJe-ec-VCK"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Sosyal Medya" id="zcU-hk-rCi">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="tU2-at-swc" imageView="vvK-fk-GHH" style="IBUITableViewCellStyleDefault" id="EYq-k0-2KL">
+                                        <rect key="frame" x="0.0" y="261.5" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EYq-k0-2KL" id="vJ6-Ub-Olq">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tU2-at-swc">
+                                                    <rect key="frame" x="67" y="0.0" width="327" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <accessibilityTraits key="traits" link="YES"/>
+                                                        <bool key="isElement" value="NO"/>
+                                                    </accessibility>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="https://www.facebook.com/vestel" textAlignment="natural" id="hDn-x2-dZY">
+                                                    <rect key="frame" x="67" y="2.5" width="300" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="tintColor" name="AccentColor"/>
+                                                    <color key="textColor" systemColor="labelColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                                </textView>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="facebook" id="vvK-fk-GHH">
+                                                    <rect key="frame" x="20" y="9" width="32" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" link="YES"/>
+                                            <bool key="isElement" value="NO"/>
+                                        </accessibility>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="3u0-Ba-Uga" imageView="iSH-Bv-70X" style="IBUITableViewCellStyleDefault" id="lPP-TB-G40">
+                                        <rect key="frame" x="0.0" y="311.5" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lPP-TB-G40" id="UM1-W1-Dg8">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3u0-Ba-Uga">
+                                                    <rect key="frame" x="67" y="0.0" width="327" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <accessibilityTraits key="traits" link="YES"/>
+                                                        <bool key="isElement" value="NO"/>
+                                                    </accessibility>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="https://www.instagram.com/vestel/" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fvp-q0-ErI">
+                                                    <rect key="frame" x="67" y="0.0" width="300" height="41"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="tintColor" name="AccentColor"/>
+                                                    <color key="textColor" systemColor="labelColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                                </textView>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="instagram" id="iSH-Bv-70X">
+                                                    <rect key="frame" x="20" y="9" width="32" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" link="YES"/>
+                                            <bool key="isElement" value="NO"/>
+                                        </accessibility>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="NG3-0b-ary" imageView="S2o-xJ-5j2" style="IBUITableViewCellStyleDefault" id="N0w-cD-j2r">
+                                        <rect key="frame" x="0.0" y="361.5" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="N0w-cD-j2r" id="IMM-DI-nPH">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NG3-0b-ary">
+                                                    <rect key="frame" x="67" y="0.0" width="327" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <accessibilityTraits key="traits" link="YES"/>
+                                                        <bool key="isElement" value="NO"/>
+                                                    </accessibility>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="https://twitter.com/vestel?lang=tr" textAlignment="natural" id="44I-dg-8H9">
+                                                    <rect key="frame" x="67" y="2" width="300" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="tintColor" name="AccentColor"/>
+                                                    <color key="textColor" systemColor="labelColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                                </textView>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="twitter" id="S2o-xJ-5j2">
+                                                    <rect key="frame" x="20" y="9" width="32" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" link="YES"/>
+                                            <bool key="isElement" value="NO"/>
+                                        </accessibility>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="etp-wd-Pfv" id="CaT-sm-zse"/>
+                            <outlet property="delegate" destination="etp-wd-Pfv" id="czy-Oo-e2O"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Hakkımızda" id="TbJ-BH-bAa"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kck-tM-IWd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876.81159420289862" y="-1377.4553571428571"/>
+        </scene>
+        <!--Vestel Grubu-->
+        <scene sceneID="ORb-bK-6Cd">
+            <objects>
+                <viewController title="Vestel Grubu" id="cg4-Ux-Baz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hqu-sA-UCK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vestel_kirmizi_logo" translatesAutoresizingMaskIntoConstraints="NO" id="JU8-cv-5Xm">
+                                <rect key="frame" x="20" y="119" width="374" height="243"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="243" id="Zox-DL-8AM"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9nO-DM-Zbw">
+                                <rect key="frame" x="20" y="418" width="374" height="429"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">1984 yılında kurulan ve 1994 yılında Zorlu Grubu tarafından satın alınan Vestel, bugün 18’i yurt dışında olmak üzere, toplam 28 şirketten oluşan küresel bir şirketler topluluğudur. Vestel, yurt içi ve yurt dışı pazarlardaki tüketicilere, tüketici elektroniği, beyaz eşya, küçük ev aletleri, dijital ürünler, mobil ürünler ve LED aydınlatma ürünlerinden oluşan geniş bir ürün gamı sunmaktadır.
+
+Vestel, 16 binin üzerinde çalışanı, teknolojik üstünlüğü ile desteklenen üretim kabiliyeti ve ülke ihracatına yaptığı katkı ile Türkiye ekonomisi için önemli bir gücü temsil etmektedir.
+Vestel’in Manisa’daki 1,3 milyon metrekare alan üzerine kurulu üretim üssü Vestel City Avrupa’nın tek lokasyonda üretim yapan en büyük endüstri komplekslerinden biridir. Vestel, üretim yetkinlikleri, kalite standartları, Ar-Ge ve inovasyon gücü ile sadece ülkemizde değil, küresel piyasalarda da pazarı yönlendiren etkili bir oyuncu ve dünyaya teknoloji ihracı alanında Türkiye’nin simgesi ve gururudur.
+
+Vestel:
+
+Tüketici elektroniği ve beyaz eşya alanında dünyanın önde gelen ODM (Original Design Manufacturer - Özgün Tasarım Üreticisi) üreticilerinden biridir.
+
+Avrupa TV pazarının ilk 2, beyaz eşya pazarının ilk 5 üreticisinden biridir.
+
+Türkiye’de TV pazarında lider, beyaz eşya pazarında ilk üç üreticiden biridir.
+
+Türkiye’nin ilk yerli tasarım ve üretim akıllı telefonu Venus’ün üreticisidir.
+
+Türkiye’nin 7. büyük ihracatçısıdır.
+
+155 ülkeye ihracat yapmaktadır.
+
+Türkiye toplam TV ihracatının yaklaşık %90’ını, beyaz eşya ihracatının yaklaşık %30’unu gerçekleştirmektedir.
+
+Türkiye elektronik sektörünün son 21 yıldır değişmez ihracat şampiyonudur.
+
+Türkiye’nin en çok bilinen 10 markası arasında yer almaktadır.
+
+Dünyada en çok Ar-Ge harcaması yapan ilk 1.000 firma arasında yer alan 3 Türk şirketinden biridir.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="42F-VK-GJe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JU8-cv-5Xm" firstAttribute="leading" secondItem="9nO-DM-Zbw" secondAttribute="leading" id="3Mw-Bh-0Vq"/>
+                            <constraint firstItem="JU8-cv-5Xm" firstAttribute="top" secondItem="42F-VK-GJe" secondAttribute="top" constant="31" id="4ee-0p-8g7"/>
+                            <constraint firstItem="JU8-cv-5Xm" firstAttribute="leading" secondItem="hqu-sA-UCK" secondAttribute="leadingMargin" id="Bng-09-zdE"/>
+                            <constraint firstItem="9nO-DM-Zbw" firstAttribute="top" secondItem="JU8-cv-5Xm" secondAttribute="bottom" constant="56" id="MOC-co-Iba"/>
+                            <constraint firstItem="42F-VK-GJe" firstAttribute="bottom" secondItem="9nO-DM-Zbw" secondAttribute="bottom" constant="15" id="iAa-s7-TXc"/>
+                            <constraint firstItem="JU8-cv-5Xm" firstAttribute="trailing" secondItem="hqu-sA-UCK" secondAttribute="trailingMargin" id="kzp-4z-eNi"/>
+                            <constraint firstItem="JU8-cv-5Xm" firstAttribute="trailing" secondItem="9nO-DM-Zbw" secondAttribute="trailing" id="vAx-cX-JpA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Vestel Grubu" id="xRr-gT-Pxr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IDt-Gg-Ect" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1642.0289855072465" y="-1023.8839285714286"/>
+        </scene>
+        <!--Zorlu Grubu-->
+        <scene sceneID="2My-6W-BZ3">
+            <objects>
+                <viewController title="Zorlu Grubu" id="izw-Yq-2FU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bw1-qc-4P2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zorlu_logo_d" translatesAutoresizingMaskIntoConstraints="NO" id="7s2-dv-zs7">
+                                <rect key="frame" x="20" y="98" width="374" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="Vyz-YL-eV2"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OY0-iE-kkB">
+                                <rect key="frame" x="20" y="336" width="374" height="508"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <string key="text">Zorlu Grubu’nun temelleri 1953 yılında, Denizli’nin Babadağ ilçesinde tekstil sektörü ile atılmıştır. Aile şirketi olarak faaliyetlerine başlayan Zorlu Grubu, güçlü bir kurumsallaşma örneği sergileyerek, bugün bünyesinde yaklaşık 30 bin çalışan ve 60’tan fazla şirketi barındıran dev bir şirketler topluluğuna dönüşmüştür.
+
+Türkiye’nin önde gelen gruplarından biri olan Zorlu Grubu
+
+Tekstil,
+Tüketici Elektroniği ve Beyaz Eşya,
+Enerji,
+Gayrimenkul ve
+Maden-Metalurji
+
+sektörlerindeki faaliyetleri ile ülkemiz ekonomisi için artan oranda katma değer üretmekte ve ülke ihracatına önemli katkıda bulunmaktadır.
+
+Zorlu Grubu hakkında daha fazla bilgi için: www.zorlu.com.tr</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sLj-fU-gYK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7s2-dv-zs7" firstAttribute="leading" secondItem="bw1-qc-4P2" secondAttribute="leadingMargin" id="29A-9t-aPG"/>
+                            <constraint firstItem="7s2-dv-zs7" firstAttribute="trailing" secondItem="bw1-qc-4P2" secondAttribute="trailingMargin" id="Cvb-Nd-4O0"/>
+                            <constraint firstItem="sLj-fU-gYK" firstAttribute="bottom" secondItem="OY0-iE-kkB" secondAttribute="bottom" constant="18" id="P98-wE-HES"/>
+                            <constraint firstItem="7s2-dv-zs7" firstAttribute="top" secondItem="sLj-fU-gYK" secondAttribute="top" constant="10" id="Xza-vR-2Fm"/>
+                            <constraint firstItem="7s2-dv-zs7" firstAttribute="leading" secondItem="OY0-iE-kkB" secondAttribute="leading" id="fsd-PV-ARz"/>
+                            <constraint firstItem="7s2-dv-zs7" firstAttribute="trailing" secondItem="OY0-iE-kkB" secondAttribute="trailing" id="fxd-Ux-mFs"/>
+                            <constraint firstItem="OY0-iE-kkB" firstAttribute="top" secondItem="7s2-dv-zs7" secondAttribute="bottom" constant="8" id="qGV-NK-Tl1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Zorlu Grubu" id="ygf-4W-ywP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I2j-Tt-33S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2286" y="-1377"/>
+        </scene>
+        <!--Yönetim Kurulu Başkanının Mesajı-->
+        <scene sceneID="k9O-4N-o3k">
+            <objects>
+                <viewController title="Yönetim Kurulu Başkanının Mesajı" id="kaA-4Q-3BB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5b6-9u-cbL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ahmet_nazif_zorlu" translatesAutoresizingMaskIntoConstraints="NO" id="PjE-t5-inF">
+                                <rect key="frame" x="20" y="117" width="374" height="230"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="67q-Pa-MmT">
+                                <rect key="frame" x="20" y="341" width="374" height="508"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Küresel ekonomi açısından oldukça zor bir yılı daha geride bıraktık.
+
+2019, korumacı politikalar, Brexit ve dünyanın birçok bölgesinde devam eden jeopolitik sorunların gölgesinde, küresel büyüme endişelerinin fazlasıyla hissedildiği bir yıl olmuştur.
+
+Ticaret savaşları ve küresel büyümede yavaşlama kaygıları ile ABD Merkez Bankası (Fed) ve Avrupa Merkez Bankası (ECB) gibi önde gelen merkez bankaları, ekonomiyi desteklemek amacıyla yeniden genişlemeci para politikalarına dönmek zorunda kalmıştır. Fed, yıl içerisinde gerçekleştirdiği üç faiz indirimiyle politika faizini %1,50- 1,75 bandına düşürürken; ECB, destek paketi hazırlayarak aylık 20 milyar Euro tutarındaki yeni varlık alım programını devreye almış ve faiz indirimine gitmiştir. Faiz indirimleri ile birlikte gelişmekte olan piyasalara yönelik sermaye akımlarında görece bir toparlanma gözlenmiştir.
+
+ABD en uzun süreli büyüme dönemlerinden birini yaşarken, Euro Bölgesi’nde geçen yıla göre daha zayıf bir büyüme gözlenmektedir. Yıl içerisinde Brexit sürecinin yanı sıra İtalya ve İspanya’da da siyasi belirsizliklerin oluşması bölgedeki büyüme eğilimine olumsuz yansımıştır. İvme kaybının sürdüğü Asya ekonomilerinde Japonya beklentilerin altında büyürken, Çin ekonomisinin büyüme performansı da son 30 yılın en düşük seviyesine gerilemiştir.
+
+Yapılan öngörüler, 2008 finansal krizinden bu yana en düşük küresel büyüme oranının 2019’da gerçekleşeceğine işaret etmektedir. IMF, Ocak 2020 raporunda küresel büyüme tahminini bir kez daha aşağı yönlü revize ederek 2019 yılı için %3’ten %2,9’a, 2020 yılı için ise %3,4’ten %3,3’e düşürmüştür. Raporda, birkaç gelişmekte olan ülkede ekonomik faaliyetlere yönelik olumsuz gelişmelerin büyüme beklentilerinin yeniden değerlendirilmesine yol açtığı belirtilirken, 2020 yılında öngörülen nispi toparlanmanın Çin dışındaki gelişmekte olan ekonomilerden kaynaklanmasının beklendiği vurgulanmıştır.
+
+2020 yılının ilk ayında, Çin ile ABD arasında yaklaşık iki yıldır süren ticaret savaşında, birinci faz ticaret anlaşması konusunda uzlaşmaya varılması ve Brexit yasa tasarısının onaylanmasının, piyasalarda belirsizliklerin azalması ve risk iştahının artması yönünde olumlu bir etki yaratması öngörülmektedir.
+
+Türkiye ekonomisi dengelenme sürecinde başarı sağlamıştır.
+
+Türkiye ekonomisi, konjonktürel gelişmelerin yanı sıra ABD ile yaşanan inişli çıkışlı siyasi ilişkiler ve gündemden düşmeyen Orta Doğu kaynaklı jeopolitik risklerin etkisinde bir yıl geçirmiştir.
+
+2018 yılı Ağustos ayında döviz kurundaki sert yükseliş nedeniyle sıkıntılı bir sürece giren Türkiye ekonomisinde, yılın son çeyreğinde başlayan daralma 2019 yılının ilk yarısında da sürmüş ve ilk çeyrekte %2,3, ikinci çeyrekte ise %1,6 küçülme yaşanmıştır.
+
+Yıl boyunca ekonomi yönetiminin kararlı duruşu, hızlı bir şekilde aldığı önlemler ve özel sektörün uyumlu iş birliği ile yürütülen dengelenme sürecinde önemli yol kat edilmiştir. Yılın üçüncü çeyreğinde beklentileri aşarak %1 büyüyen Türkiye ekonomisi, dördüncü çeyrekte ivmesini artırmış ve %6’lık bir büyüme kaydetmiştir. Böylelikle, Türkiye ekonomisi, 2019 yılında Yeni Ekonomi Programı (YEP)’teki büyüme hedefi olan %0,5’i geçerek %0,9 büyüme göstermiştir.
+
+Birikimli döviz kuru etkilerinin azalması ve iç talebin ılımlı seyri, enflasyon dinamiklerinin 2019 yılında genel olarak iyileşmesini desteklemiştir. 2019 Ocak ayında %20,35 düzeyinde gerçekleşen TÜFE, yılı %11,84 ile tamamlamıştır. Enflasyon görünümündeki iyileşmeye bağlı olarak TCMB, Temmuz ayından başlayarak kademeli olarak politika faizini %24’ten %12 seviyesine çekmiştir. Bu gelişme, yılın ikinci yarısında şirketlerin finansman maliyetlerini aşağı çekerek nakit akışlarında rahatlama sağlamıştır.
+
+2019 yılında ihracatta rekor seviyelere ulaşılırken, son 9 yılın en düşük seviyesinde gerçekleşen cari açığın kademeli olarak iyileştiği ve artıya geçtiği görülmüştür. Türkiye’nin yumuşak karnı olarak nitelendirilen ödemeler dengesinde elde edilen başarının 2020’de de sürdürülmesi yönünde kararlı bir duruş sergileyen ekonomi yönetiminin, 2020 yılı için hedeflediği cari açık/milli gelir oranı %1,2 düzeyindedir.
+
+2019 yılında ekonomik göstergelerde YEP’te belirtilen hedeflere yakın bir tablonun oluşması dikkati çekerken, bu durum söz konusu programda 2020 yılı için çizilen çerçeveye dair güveni de artırmıştır.
+
+Vestel için zor ama başarılı bir yıl
+
+Küresel koşulların ve dengelenme sürecinin sancılarını yıl boyunca ülke olarak hep birlikte hissettiğimiz 2019’da; ihracat odaklı stratejimiz, yenilikçiliğimiz ve katma değerli üretimdeki yetkinliğimiz ile Vestel’in daha parlak yarınlara ulaşması için var gücümüzle çalışmaya devam ettik.
+
+2018 yılının 3. çeyreğinden itibaren yurt dışı pazarlara daha fazla ağırlık veren Vestel, 2019’da da bu stratejisini devam ettirerek Türkiye ihracatındaki en büyük güçlerden biri olmayı sürdürmüştür. İhracat pazarlarında gösterdiğimiz bu güçlü performans ile elektronik sektöründeki şampiyonluğumuzu 22. yıla taşıdık.
+
+T.C. Sanayi ve Teknoloji Bakanlığı tarafından verilen 7. Teknoloji Geliştirme Bölgeleri ve Ar-Ge Merkezleri Ödülleri’nde birinci olarak Ar-Ge’deki gücünü bir kez daha gösteren Vestel, global teknoloji şirketi kimliğini giderek güçlendirdiğini de ortaya koymaktadır. Üretim yaptığımız global markalar, kalite, Ar-Ge, tasarım ve inovasyon yetkinliklerimize olan inanç ve güvenlerini, mevcut iş birliklerinin kapsamını daha da genişleterek göstermektedir. Sharp ile beyaz eşya alanında 2024 sonuna kadar geçerli marka lisans anlaşmamızın kapsamının akıllı ürünleri de içerecek şekilde genişletilmesi bunun en iyi örneği olmuştur. Toshiba ile TV üretimi ve satışı konusundaki iş birliğimiz ise Avrupa pazarındaki başarılı satış grafiği ve artan pazar payı ile güçlenerek sürmektedir.
+
+Üretiminin %80’den fazlasını başta Batı Avrupa olmak üzere dünyanın 156 ülkesine ihraç eden yerli bir teknoloji ve üretim şirketi olan Vestel, dünyadaki rekabetçi ve öncü gücünü korumak için teknolojik gelişmeleri yakından takip etmenin ötesinde bu gelişmelere yön veren bir şirket olmak zorundadır. Bu doğrultuda, 2015 yılından itibaren Vestel’de gerek Endüstri 4.0, gerekse dijital dönüşüm için tüm altyapıları ve sistemleri oluşturmaya başladık. Halihazırda fabrikalarımızda 300’ün üzerinde Endüstri 4.0 projesini hayata geçirmiş durumdayız ve bu konudaki çalışmalarımız hızla devam ediyor. Vestel City’nin Türkiye’de Endüstri 4.0 dönüşümünü gerçekleştiren ilk tesis olması konusundaki iddiamızı da korumaktayız.
+
+Dijital dönüşümün ürün tarafında, ürün gamımızdaki akıllı ürünlerin sayısını hızla artırmaya devam ediyoruz. Akıllı ev ekosistemi çerçevesinde şu anda ürettiğimiz televizyonlar, beyaz eşyalar ve akıllı telefonlar birbirine bağlanabilir, birbiriyle haberleşebilir ve veri transferi yapabilir konumdalar. Bugün kullanıcı alışkanlıklarını öğrenebilen ve kendini geliştirebilen ürünler ürün gamımızda yerini almıştır. Örneğin Avrupa’da deterjan bittiği zaman deterjan siparişi verebilen çamaşır makinelerimiz pazara sunulmuştur. Kullanıcı alışkanlıklarına göre kendi kendine öğrenen, yapay zekaya sahip ürünlerimizle uluslararası fuarlarda da ilgi odağı oluyor ve tasarım yarışmalarında onlarca ödüle layık görülüyoruz. Sadece Plus X Awards yarışmasında, tüketici elektroniğinde 26, beyaz eşya alanında ise 32 ödül alan Vestel, en büyük ödül olan “En Yenilikçi Marka” Ödülü’ne geçen yıl olduğu gibi bu yıl da layık görülmüştür.
+
+Yılın son ayında, ortaklarından biri olduğumuz Türkiye’nin Otomobili Projesi’nde güzel bir gelişme yaşamış bulunuyoruz. 2 yıldır TOGG çatısı altında büyük emek verdiğimiz, elektrikli ve otonom özelliklere sahip olacak Türkiye’nin Otomobili’nin ilk gösterimi Aralık ayında yapıldı. Yerli otomobilimizin dijital ekranlarının Vestel tarafından tasarlanması ve üretilmesi bizim için gurur kaynağıdır. Geleceğin akıllı teknolojilerine yatırım yaparak büyüyen bir Şirket olarak Türkiye’de yeni bir endüstrinin doğmasına öncülük edecek bu projenin parçası olduğumuz için büyük bir memnuniyet duyuyoruz.
+
+Bu bağlamda belirtmek isterim ki, otomotiv elektroniği, batarya sistemleri ve elektrikli araç şarj üniteleri konusunda yoğunlaştırdığımız çalışmalarımızı yeni iş birlikleriyle genişletmeyi hedefliyoruz. Vestel teknolojik yetkinliğini, rekabet üstünlüğü elde edebileceği farklı gelişim alanlarında da kullanmaya ve yeni ufuklar açmaya devam edecektir.
+
+Zorlukları ve başarıları hep birlikte göğüslediğimiz tüm paydaşlarımıza en içten teşekkürlerimi sunarım.
+Saygılarımla,
+Ahmet Nazif Zorlu
+Yönetim Kurulu Başkanı</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bH7-sc-Zqm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bH7-sc-Zqm" firstAttribute="bottom" secondItem="PjE-t5-inF" secondAttribute="bottom" constant="515" id="6Lc-p0-clD"/>
+                            <constraint firstItem="67q-Pa-MmT" firstAttribute="top" secondItem="bH7-sc-Zqm" secondAttribute="top" constant="253" id="Qey-n4-qMG"/>
+                            <constraint firstItem="PjE-t5-inF" firstAttribute="trailing" secondItem="5b6-9u-cbL" secondAttribute="trailingMargin" id="TjS-Ai-0af"/>
+                            <constraint firstItem="PjE-t5-inF" firstAttribute="trailing" secondItem="67q-Pa-MmT" secondAttribute="trailing" id="kQu-KV-yDJ"/>
+                            <constraint firstItem="bH7-sc-Zqm" firstAttribute="bottom" secondItem="67q-Pa-MmT" secondAttribute="bottom" constant="13" id="p5V-fA-faH"/>
+                            <constraint firstItem="PjE-t5-inF" firstAttribute="top" secondItem="bH7-sc-Zqm" secondAttribute="top" constant="29" id="pcq-Og-Nqw"/>
+                            <constraint firstItem="PjE-t5-inF" firstAttribute="leading" secondItem="67q-Pa-MmT" secondAttribute="leading" id="qvN-Gv-bgk"/>
+                            <constraint firstItem="PjE-t5-inF" firstAttribute="leading" secondItem="5b6-9u-cbL" secondAttribute="leadingMargin" id="xnl-k1-WMn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Yönetim Kurulu Başkanının Mesajı" id="M9R-AW-FBL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="idO-hr-nSF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1643" y="-1713"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1lo-CJ-i80">
+            <objects>
+                <navigationController id="TdU-T3-uyq" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aF4-1H-n7F">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.77647058823529413" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WUd-xE-ofk" kind="relationship" relationship="rootViewController" id="M44-Yb-bJm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HWK-Yr-sLo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-764" y="-133"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+    <resources>
+        <image name="about_us" width="64" height="64"/>
+        <image name="ahmet_nazif_zorlu" width="325" height="160"/>
+        <image name="call-center" width="32" height="32"/>
+        <image name="contact" width="64" height="64"/>
+        <image name="facebook" width="32" height="32"/>
+        <image name="instagram" width="32" height="32"/>
+        <image name="list" width="64" height="64"/>
+        <image name="manager_message" width="64" height="64"/>
+        <image name="twitter" width="32" height="32"/>
+        <image name="vestel_buzdolabi1_d" width="1000" height="1000"/>
+        <image name="vestel_buzdolabi2_d" width="1000" height="1000"/>
+        <image name="vestel_buzdolabi3_d" width="1000" height="1000"/>
+        <image name="vestel_buzdolabi_1" width="270" height="179"/>
+        <image name="vestel_buzdolabi_2" width="270" height="179"/>
+        <image name="vestel_buzdolabi_3" width="270" height="179"/>
+        <image name="vestel_buzdolabi_k" width="260" height="260"/>
+        <image name="vestel_camasir1_d" width="1000" height="1000"/>
+        <image name="vestel_camasir3_d" width="1000" height="1000"/>
+        <image name="vestel_camasir_1" width="540" height="358"/>
+        <image name="vestel_camasir_3" width="540" height="358"/>
+        <image name="vestel_camasir_k" width="260" height="260"/>
+        <image name="vestel_kirmizi_logo" width="1920" height="496"/>
+        <image name="vestel_logo_d" width="300" height="300"/>
+        <image name="vestel_mobil_k" width="328" height="512"/>
+        <image name="vestel_musteri_d" width="640" height="400"/>
+        <image name="vestel_telefon1" width="1000" height="1000"/>
+        <image name="vestel_telefon1_d" width="1000" height="1000"/>
+        <image name="vestel_telefon2" width="1000" height="1000"/>
+        <image name="vestel_telefon2_d" width="1000" height="1000"/>
+        <image name="vestel_telefon3" width="1000" height="1000"/>
+        <image name="vestel_telefon3_d" width="1000" height="1000"/>
+        <image name="vestel_tv1_d" width="1000" height="1000"/>
+        <image name="vestel_tv2_d" width="1000" height="1000"/>
+        <image name="vestel_tv3_d" width="1000" height="1000"/>
+        <image name="vestel_tv_1" width="540" height="358"/>
+        <image name="vestel_tv_2" width="540" height="358"/>
+        <image name="vestel_tv_3" width="540" height="358"/>
+        <image name="vestel_tv_k" width="260" height="260"/>
+        <image name="vestel_yetkili_servis_d" width="480" height="400"/>
+        <image name="zorlu_logo" width="273" height="194"/>
+        <image name="zorlu_logo_d" width="200" height="200"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
